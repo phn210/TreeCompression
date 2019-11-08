@@ -4,6 +4,8 @@
 
 using namespace std;
 
+/* nhap tu ban phim so canh, sau do nhap lan luot cac canh cua cay*/
+
 struct CANH
     {
         int dinhTren;
