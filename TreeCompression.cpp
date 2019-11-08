@@ -39,7 +39,7 @@ int main()
         cout << "Nhap canh thu " << i+1 << endl;
         cin >> canh[i].dinhTren >> canh[i].dinhDuoi;// nhap lan luot cac canh cua cay
     }
-    int bac[1001];
+    int bac[10001]; // bac[i] la bac cua dinh i
     for(i=0;i<=n;i++) bac[i]=0;
     for(i=0;i<n;i++)
     {
