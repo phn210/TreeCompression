@@ -28,14 +28,14 @@ int timKiem(int x, CANH* canh, int n)
 int main()
 {
     int n,i=0;
-    cout << "Nhap so canh: ";
+    cout << "Nhap so canh: ";//nhap vao so canh n cua cay
     cin >> n;
     CANH* canh;
     canh = (CANH*)calloc(n,sizeof(CANH));
     for(i=0;i<n;i++)
     {
         cout << "Nhap canh thu " << i+1 << endl;
-        cin >> canh[i].dinhTren >> canh[i].dinhDuoi;
+        cin >> canh[i].dinhTren >> canh[i].dinhDuoi;// nhap lan luot cac canh cua cay
     }
     int bac[1001];
     for(i=0;i<=n;i++) bac[i]=0;
